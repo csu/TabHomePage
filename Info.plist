@@ -9,7 +9,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>Tab Home Page</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.christophersu.tabclock</string>
+	<string>com.christophersu.tabhomepage</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
