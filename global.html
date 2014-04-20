@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tab Home Page</title>
+	<script type="text/javascript">
+	safari.application.addEventListener("open", openHandler, true);
+
+	function openHandler(e) {
+		if ((e.target instanceof SafariBrowserTab) && !(e.target instanceof SafariBrowserWindow)) {
+			console.log('is instance of tab')
+			safari.application.activeBrowserWindow.activeTab.url = safari.extension.settings.home_url
+		}
+		else {
+			console.log('is instance of window')
+		}
+	}
+	</script>
+</head>
+<body>
+</body>
+</html>
